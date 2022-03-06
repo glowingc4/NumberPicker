@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <ctime>
+
+int main() {
+  srand((unsigned) time(0));
+    printf("Your dice has been rolled! You got: \n ");
+    int result = 1 + (rand() % 6);
+    printf("%d \n", result);
+   switch (result) {
+    case 1:
+    printf("7");
+        break;
+    case 2:
+        printf("9");
+        break;
+    case 3:
+        printf("539");
+        break;
+    case 4:
+        printf("428");
